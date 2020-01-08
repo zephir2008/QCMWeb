@@ -1,0 +1,34 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-16ea9531b35-6b2b8e6b279f4562": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB - qcm",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "qcm",
+				"url": "jdbc:mysql://localhost:3306/qcm",
+				"home": "/usr",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-serverTimezone@": "Europe/Paris"
+				},
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+
+body
+	{
+	font-family: arial;
+	}
+
+
+div
+{
+	margin-left: auto;
+   	margin-right: auto;
+   	width: 800px;
+	margin: 3px 3px 3px 3px;
+}
+
+.titrePrincipal
+{
+	font-weight: bolder;
+	font-size:xx-large;
+   	text-align: center;
+}
+.grosBouton
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	cursor: hand;
+	text-align: center;
+	vertical-align:middle;
+	height:50px;
+}
+
+.grosBouton:HOVER {
+	background-color: gray;
+}

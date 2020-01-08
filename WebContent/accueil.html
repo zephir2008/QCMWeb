@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Un QCM - Accueil</title>
+
+	<link type="text/css" href="themes/start/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
+	<link type="text/css" href="themes/start/qcm.css" rel="stylesheet" />
+	<script type="text/javascript" src="javascript/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery-ui-1.8.22.custom.min.js"></script>
+	
+	<script>
+	$(function() {
+		$( "input:submit", ".centerDiv" ).button();
+	});
+	</script>
+	
+</head>
+<body>
+	<form method="post" action="./authentification">
+		<div class="centerDiv">
+			<h1 class="titre">UN QCM</h1>
+			<input type="submit" name="demande_formateur" value="Je suis un formateur">
+			<br/>
+			<input type="submit" name="demande_stagiaire" value="Je suis un stagiaire"/>
+			<br/>
+		</div>
+	</form>
+</body>
+</html>
