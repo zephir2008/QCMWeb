@@ -2,7 +2,7 @@ USE qcm;
 
 -- 1
 DROP FUNCTION IF EXISTS ajouter_formateur;
-delimiter |
+
 CREATE FUNCTION ajouter_formateur(
 	nom varchar(50),
 	prenom varchar(50),
@@ -16,7 +16,6 @@ BEGIN
 		values(nom, prenom, courriel, login, motDePasse, estResponsable);
 	return LAST_INSERT_ID();
 END
-delimiter ;
 
 -- 2
 DROP PROCEDURE IF EXISTS ajouter_inscription;
